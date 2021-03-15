@@ -4,7 +4,7 @@
  *
  */
 
-import { GraphQLError, ExecutionResult } from 'graphql';
+import type { GraphQLError, ExecutionResult } from 'graphql';
 import { ID } from './types';
 import {
   isObject,

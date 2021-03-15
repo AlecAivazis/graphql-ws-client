@@ -3,7 +3,7 @@
  * utils
  *
  */
-import { GraphQLError } from 'graphql';
+import type { GraphQLError } from 'graphql';
 
 // Extremely small optimisation, reduces runtime prototype traversal
 const baseHasOwnProperty = Object.prototype.hasOwnProperty;

@@ -1,5 +1,5 @@
 {
-  "name": "graphql-ws",
+  "name": "graphql-ws-client",
   "version": "4.2.1",
   "description": "Coherent, zero-dependency, lazy, simple, GraphQL over WebSocket Protocol compliant server and client",
   "keywords": [
@@ -63,9 +63,6 @@
     "build:umd": "rollup -c && gzip umd/graphql-ws.min.js -c > umd/graphql-ws.min.js.gz",
     "build": "yarn build:esm && yarn build:cjs && yarn build:umd",
     "release": "semantic-release"
-  },
-  "peerDependencies": {
-    "graphql": ">=0.11 <=15"
   },
   "devDependencies": {
     "@babel/core": "^7.13.10",
